@@ -1,0 +1,130 @@
+
+body {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.2)50%,rgba(0, 0, 0, 0.2)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2E8B57;
+  }
+  
+  .cont {
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  color: rgb(251, 251, 251);
+  font-style: times;
+
+  }
+  body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  form button {
+    background-color: #ffffff;
+    color: #1c1c1c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #ffffff;
+      color: #ffffff;
+    }
+  
+    form input,
+    form textarea {
+      background-color: #f7f7f7;
+      color: #1c1c1c;
+    }
+  
+    form button {
+      background-color: #1c1c1c;
+      color: #ffffff;
+    }
+  
+    form button:hover {
+      background-color: #33ff00d9;
+      color: #1c1c1c;
+    }
+  }
+  

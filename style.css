@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.2)50%,rgba(0, 0, 0, 0.2)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 750px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial;
+    float:left;
+    left: 25px;
+    padding-top: 10px;
+    transition: 1.5s ease-in-out;
+    
+
+}
+
+
+.mean{
+    width: 400px;
+    float: right;
+    height: 70px;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 35px;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: azure;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color:rgb(17, 255, 0) ;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    background: solid white;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 330px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 13px;
+    font-size: 25px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    margin-top:13px;
+    color: white;
+    font-size: 25px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn :hover{
+    background: white;
+}
+
+.btn.focus{
+    outline:auto;
+}
+
+.srch.btn.focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 120px;
+    color: aliceblue;
+    position:absolute;
+    transition: 1.1s ease-in-out;
+
+}
+.content   .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-style: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-style: arial;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: transparent;
+    margin-bottom: 10px;
+    margin-left: 650px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+
+.content cn a{
+ text-decoration: none;
+ color:wheat;
+ transition: 0.3s;
+
+}
+
+.cn:hover{
+    background: white;
+}
+
+.content span{
+    color: aliceblue;
+    size: 6px;
+}
+
+.form{
+    width:600px;
+    height: 380px;
+    size: 18px;
+    background: transparent;
+    position: absolute;
+    top: 270px;
+    left: 550px;
+    border-radius: 8px;
+    padding: 25px;
+    font-size: 32px;
+
+
+
+}
+
+.form h2{
+    height:auto;
+    text-align:left;
+    font-size: 40px;
+    color: aliceblue;;
+    
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background:snow;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.bt{
+    width: 80px;
+    height: 32px;
+    background: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    color: aliceblue;
+    font-style: arial;
+    font-weight: bold;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+    font-weight:bold;
+}
+
+.Link {
+
+    height: auto;
+    width: auto;
+    color: aliceblue;
+    font-size: 30px;
+
+    margin-top:55px;
+    
+
+}
+
+.src1{
+   text-decoration: none;
+   margin-top: 25px;
+   color: aliceblue;
+   width:60px;
+   height: 35px;
+   color: black;
+   border-radius: 2px;
+   font-style: arial;
+   font-weight: bold;
+   border-color: aliceblue;
+  
+
+}
+.src1:hover{
+
+    color: rgb(4, 4, 4);
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: azure;
+    font-size: 20px;
+    background: transparent;
+    font-style: arial;   
+}
+
+.icon a{
+    margin-top: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.icons ion-icon{
+    
+    color: white;
+    font-size: 30px;
+    
+    padding-left: 14px;
+    padding-top: 4px;
+}
+
+.icons ion-icon :hover{
+
+    color:white;
+}
+
+.cont h1 {
+    margin: auto;
+    padding: 0%;
+    transition: 0.2s ease-in-out;
+}

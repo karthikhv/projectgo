@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="sty.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form name="submit-to-google-sheet">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Submit</button>
+        <div id="thank_you" style="display: none;">
+          <p>Thanks for contacting!</p>
+          <button type="submit">Close</button>
+        </div>
+      </form>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxJxpSMTnbAZBclgYikbjyXYbCwxii8dHxigJEWIxl5-Vza8WmchVdGzcMRvtxJrSLD/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+        
+      </script>
+  </body>
+</html>
